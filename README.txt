@@ -7,6 +7,7 @@ Nella cartella lib ci sono vari file e cartelle che riassumono il lavoro svolto 
 ////////////////////////////		001_YeVerification
 Questa cartella contiene vari file e cartelle che riassumono le verifiche fatte per validare il nostro modello con i dati dell'articolo di Ye
 
+
 ///	000_ConstantDischargeCompare
 Cartella contenente immagini che rappresentano la tensione della cella per scariche a corrente costante, per diversi Crate ( Correnti di scarica 10.2A, 11.545A )
 Comparazione tra dati Ye e del nostro modello
@@ -25,6 +26,7 @@ Comparazione tra dati Ye e del nostro modello
 
 ////////////////////////////		002_ElectricParameters
 Questa cartella contiene vari file e cartelle che riassumono le verifiche fatte per validare il nostro modello con i dati dell'articolo di Ye
+
 
 ///	001_ComparisonElectricParam20soc_min01max10
 Cartella contenente immagini che rappresentano i parametri dell'ECM analizzando delle scariche pulsate (-5% ognuna) variando un parametro del modello
