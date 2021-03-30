@@ -1,0 +1,6 @@
+10.2A Pulsed discharge
+
+001 	YeMod 	0.2C
+002 	YeMod 	0.5C
+003 	YeMod 	1.0C
+004 	YeMod 	2.0C

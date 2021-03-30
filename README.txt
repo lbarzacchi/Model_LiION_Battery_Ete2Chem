@@ -1,51 +1,76 @@
-AGGIORNAMENTO 16 Marzo 2021
+Archivied Results
+
 
 Nella cartella lib ci sono vari file e cartelle che riassumono il lavoro svolto in questo periodo
 
 
-////////////////////////////		ThesisResults			
+////////////////////////////		001_YeVerification
 
-Questa cartella contiene vari file e cartelle che riassumono il lavoro svolto durante la tesi
+Questa cartella contiene vari file e cartelle che riassumono le verifiche fatte per validare il nostro modello con i dati dell'articolo di Ye
 
-///	Comparison6Simulation			
-Cartella contenente immagini che rappresentano i grafici dei parametri dell'ECM per scariche variando i parametri chimici singolarmente su 6 simulazioni per variazioni di soc del 5%
-Variazione dei parametri chimci ( -50%, -33.3%, -25%, 0%, +25%, +66%, +100% )
-
-///	ComparisonStandardVariation			
-Cartella contenente varie immagini, ognuna rappresenta i grafici dei parametri dell'ECM per scariche variando i parametri chimici del modello
-in ( -50%, -33.3%, -25%, 0%, +25%, +66%, +100% )
-
-///	resume_AfterThesis.pdf		
-Riassunto subito dopo la tesi da rivedere
+///	000_ConstantDischargeCompare
+Cartella contenente immagini che rappresentano la tensione della cella per scariche a corrente costante, per diversi Crate ( Correnti di scarica 10.2A, 11.545A )
+Comparazione tra dati Ye e del nostro modello
 
 
+///	001_ComparisonTemperature
+Cartella contenente file Excel che rappresentano la Temperatura della cella per scariche/cariche a corrente costante, per diversi Crate ( Corrente di scarica 11.545A )
+Comparazione tra dati Ye e del nostro modello
 
 
-
-////////////////////////////		AfterThesis			
-
-Questa cartella contiene vari file e cartelle che riassumono il lavoro svolto dopo la tesi
-
-
-///	ResidualCapacity.xlsx
-Tabelle dove viene riportata la capacità residua della batteria per diversi valori dei parametri chimici del modello
-
-
-///	ComparisonChargeDischarge
-Cartella contenente immagini che rappresentano i grafici dei parametri dell'ECM per scariche e cariche a confronto variando i parametri chimici del modello
-
-
-///	Discharge_oneParamConstantOtherRandom		
-Cartella contenente varie immagini, ognuna rappresenta i grafici dei parametri dell'ECM per scariche variando i parametri chimici del modello
-
-Tutti i grafici rappresentano le variazioni assolute (quindi Vmisurato - V_standard) dei parametri elettrici dell'ECM come specificato 
-
-
-///	polinomialFunctionInterpolation	
-Cartella contenente varie immagini, ognuna rappresenta l'andamento dei parametri elettrici variando i parametri chimici in 3 modi differenti:
-	-	Rappresentazione sia dei 6 punti trovati variando i parametri chimici di 6 valori diversi (-12.5%, -25%, -37.5%, -50%, -62.5%, -75%) e fittando i parametri elettrici
-	-	Sia della funzione polinomiale che interpola i dati sopra
-	-	Sia la funzione iperbolica, che forse, ipotizza il valore dei parametri elettrici al di fuori dell'intervallo 100%/25% usato nelle simulazioni
+///	002_PulsedDischarge		
+Cartella contenente immagini che rappresentano la tensione della cella per scariche a corrente pulsata, per diversi Crate (Figure 12,13,14,15 dell'articolo Ye)
+Comparazione tra dati Ye e del nostro modello
 
 
 
+////////////////////////////		002_ElectricParameters
+
+Questa cartella contiene vari file e cartelle che riassumono le verifiche fatte per validare il nostro modello con i dati dell'articolo di Ye
+
+///	001_ComparisonElectricParam20soc_min01max10
+Cartella contenente immagini che rappresentano i parametri dell'ECM analizzando delle scariche pulsate (-5% ognuna) variando un parametro del modello
+(Dsn, Dsp, Dchem, i00n, i00p, Temperatura) in un range di valori (+900%, +400%, +100%, -50%, -80%, -90%)
+
+
+///	002_ComparisonElectricParam3soc
+Cartella contenente immagini che rappresentano i parametri dell'ECM analizzando delle scariche pulsate in 3 stati della batteria, Basse, Medie ed Alte percentuali di carica (20%, 50%, 80%)
+variando un parametro del modello (Dsn, Dsp, Dchem, i00n, i00p) in un range di valori
+
+/	075
+Il range di valori scelto è [-12.5%, -25%, -37.5%, -50%, -62.5%, -75%] in modo da simulare una degradazione della batteria
+
+/ElossMax2%
+Il range di valori è stato scelto in base a quanto ogni parametro chimico influisce sull'energia della batteria(guarda cartella 003_Energy) prendendo come variazione massima una perdita di energia del 2% rispetto ad una scarica costante a 1C
+Successivamente ogni parametro chimico aveva un suo range di variazione, sei valori considerando come massima variazione quella con energia persa = 2%
+
+
+///	003_ComparisonElectricParamDischarge_resume
+Cartella contenente immagini che rappresentano i parametri dell'ECM analizzando delle scariche pulsate in 3 stati della batteria, Basse, Medie ed Alte percentuali di carica (20%, 50%, 80%)
+variando un parametro alla volta del modello (Dsn, Dsp, Dchem, i00n, i00p) in un range di valori ( 0%-75% o in base all'energia persa del 2%).
+Nelle immagini viene rappresentata una tabella che tiene traccia dei valori di ogni parametro chimco per ogni simulazione.
+Ogni grafico a barre rappresenta un parametro elettrico dell'ECM, per ogni simulazione ho 3 barre che rappresentano diverse percentuali di carica ( come da legenda)
+Sull'asse delle y vengono riportati i valori assoluti dei parametri elettrici.
+
+
+///	004_ComparisonDischargeCharge
+Cartella contenente immagini che comparano i valori dei parametri elettrici per Cariche e Scariche(risultati nella cartella precedente) in un range di valori ( 0%-75% o in base all'energia persa del 2%).
+
+
+
+////////////////////////////		003_Energy
+
+Questa cartella contiene immagini e file Excel che comparano l'energia della cella per diversi Crate o i valori dei parametri chimci
+
+
+///	EnergyCrateCmp.fig
+Immagine che rappresenta i profili di tensione di una cella scaricata a diversi Crate (area evidenziata ~= Energia cella)
+
+///	EnergyPerc2Cmp.fig
+Immagine che rappresenta i profili di tensione di una cella scaricata a 1C variando un parametro chimico in modo da avere una perdita di enegia rispetto a 1C del 2%
+
+///	EnergyPerc5Cmp.fig
+Immagine che rappresenta i profili di tensione di una cella scaricata a 1C variando un parametro chimico in modo da avere una perdita di enegia rispetto a 1C del 5%
+
+///	testdata.xlsx
+File Excel che rappresenta i valori dell'energia della cella variando Crate o i valori dei parametri chimci

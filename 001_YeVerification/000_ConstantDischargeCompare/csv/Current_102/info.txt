@@ -1,0 +1,10 @@
+10.2A current used fot 1C
+
+001 	YeMod 	0.2C
+002 	YeMod 	0.5C
+003 	YeMod 	1.0C
+004 	YeMod 	2.0C
+005 	Ye 	0.2C
+006 	Ye 	0.5C
+007 	Ye 	1.0C
+008 	Ye 	2.0C
