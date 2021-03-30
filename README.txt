@@ -5,7 +5,6 @@ Nella cartella lib ci sono vari file e cartelle che riassumono il lavoro svolto 
 
 
 ////////////////////////////		001_YeVerification
-
 Questa cartella contiene vari file e cartelle che riassumono le verifiche fatte per validare il nostro modello con i dati dell'articolo di Ye
 
 ///	000_ConstantDischargeCompare
@@ -25,7 +24,6 @@ Comparazione tra dati Ye e del nostro modello
 
 
 ////////////////////////////		002_ElectricParameters
-
 Questa cartella contiene vari file e cartelle che riassumono le verifiche fatte per validare il nostro modello con i dati dell'articolo di Ye
 
 ///	001_ComparisonElectricParam20soc_min01max10
@@ -59,7 +57,6 @@ Cartella contenente immagini che comparano i valori dei parametri elettrici per 
 
 
 ////////////////////////////		003_Energy
-
 Questa cartella contiene immagini e file Excel che comparano l'energia della cella per diversi Crate o i valori dei parametri chimci
 
 
