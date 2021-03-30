@@ -1,9 +1,6 @@
 Archivied Results
 
 
-Nella cartella lib ci sono vari file e cartelle che riassumono il lavoro svolto in questo periodo
-
-
 ////////////////////////////		001_YeVerification
 Questa cartella contiene vari file e cartelle che riassumono le verifiche fatte per validare il nostro modello con i dati dell'articolo di Ye
 
