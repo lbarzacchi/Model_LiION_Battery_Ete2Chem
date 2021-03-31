@@ -1,7 +1,6 @@
 Archivied Results
 
 Da fare:
-- aggiornare il chargecomparison con simulazioni nuove 30 Marzo
 - Da aggiornare cartella algoritmo con algoritmo nuovo e polyfit da rifare con i dati del 2% Eloss
 
 ////////////////////////////		001_YeVerification
@@ -64,6 +63,13 @@ In modo da associare ad ogni parametro elettrico dell'ECM un parametro chimico d
 Nelle immagini viene rappresentata una tabella che tiene traccia dei valori di ogni parametro chimco per ogni simulazione.
 Ogni grafico a barre rappresenta un parametro elettrico dell'ECM, per ogni simulazione ho 3 barre che rappresentano diverse percentuali di carica ( come da legenda)
 Sull'asse delle y vengono riportati i valori assoluti dei parametri elettrici.
+
+/	Variation_075
+Il range di valori scelto è [-12.5%, -25%, -37.5%, -50%, -62.5%, -75%] in modo da simulare una degradazione della batteria
+
+/	Variation_Eloss2
+Il range di valori è stato scelto in base a quanto ogni parametro chimico influisce sull'energia della batteria(guarda cartella 003_Energy) prendendo come variazione massima una perdita di energia del 2% rispetto ad una scarica costante a 1C
+Successivamente ogni parametro chimico aveva un suo range di variazione, sei valori considerando come massima variazione quella con energia persa = 2%
 
 
 
