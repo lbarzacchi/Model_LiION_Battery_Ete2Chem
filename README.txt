@@ -94,3 +94,8 @@ File Excel che rappresenta i valori dell'energia della cella variando Crate o i 
 ////////////////////////////		004_Algorithm
 Questa cartella contiene immagini e file che rappresenta la bozza dello schema a blocchi e delle funzioni di interpolazione dell'algoritmo 
 utilizzato per ricavare i parametri chimici del modello partendo dai parametri elettrici dell'ECM
+
+
+
+////////////////////////////		Scaletta.docx
+Word contenente la bozza della scaletta dell'articolo
